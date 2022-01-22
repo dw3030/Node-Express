@@ -34,12 +34,12 @@ app.use("/campsites", campsiteRouter);
 //   res.end("PUT operation not supported on /campsites");
 // });
 
-// ** the first four routes above are copy/pasted and chained onto campsiteRouter.route('/') in campsiteRouter.js
-// ** the ones below will be relevant in the workshop in week1...
-
 // app.delete("/campsites", (req, res) => {
 //   res.end("Deleting all campsites");
 // });
+
+// ** the first four routes above are copy/pasted and chained onto campsiteRouter.route('/') in campsiteRouter.js
+// ** the ones below will be relevant in the workshop in week1...
 
 // app.get("/campsites/:campsiteId", (req, res) => {
 //   res.end(`Will send details of the campsite: ${req.params.campsiteId} to you`);
